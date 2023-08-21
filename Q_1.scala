@@ -3,8 +3,8 @@ object Q_1 {
     var x= new Rational(1,4)
     println("Rational Number : "+x)
 
-    var y = new Rational(1, 4)
-    println("Negative Value : " + y.neg)
+    var y = x.neg
+    println("Negative Value : " + y)
   }
   class Rational(n:Int, d:Int){
     require(d != 0,"Denominator can not be zero")
